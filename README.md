@@ -109,3 +109,43 @@ This repository documents the research methodology and conceptual framework. Imp
 
 Author: Harshika Kilaru
 Field: Computer Science & Business Systems
+
+
+## 💻 Prototype
+
+A small Python prototype demonstrates the core concept using synthetic cryptocurrency transaction data.
+
+The prototype currently demonstrates:
+
+* Transaction graph construction
+* Wallet degree analysis
+* Z-score calculation
+* Potential anomaly identification
+
+🛠️ Tech Stack
+
+* Python
+* Pandas
+* NetworkX
+
+▶️ How to Run
+
+Clone the repository:
+
+git clone https://github.com/HarshikaKilaru/Cryptocurrency-AML-Explainability.git
+
+Navigate to the project:
+
+cd Cryptocurrency-AML-Explainability
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the prototype:
+
+python src/aml_prototype.py
+
+📊 Prototype Status
+
+This is an early research prototype using synthetic transaction data. It is intended to demonstrate the proposed methodology and is not a production AML detection system.
