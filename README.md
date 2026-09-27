@@ -146,6 +146,28 @@ Run the prototype:
 
 python src/aml_prototype.py
 
+📊 Example Output
+
+The prototype produces wallet-level graph statistics and identifies observations that may require further investigation based on the selected statistical threshold.
+
+Example:
+
+Wallet Analysis
+  wallet  degree  z_score  potential_anomaly
+0     W1       2    ...
+1     W2       3    ...
+2     W3       3    ...
+3     W4       3    ...
+4     W5       2    ...
+5     W6       2    ...
+6     W7       2    ...
+Potentially anomalous wallets:
+...
+
+The output is intended to demonstrate how graph metrics and statistical analysis can be combined to produce interpretable anomaly indicators.
+
+Note: The prototype uses synthetic transaction data. The example output should not be interpreted as evidence of illicit activity or as a real-world AML finding.
+
 📊 Prototype Status
 
 This is an early research prototype using synthetic transaction data. It is intended to demonstrate the proposed methodology and is not a production AML detection system.
